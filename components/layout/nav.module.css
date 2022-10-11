@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+
+.navLink,
+.navLogo {
+    display: grid;
+    place-content: center;
+}
+
+.navLogo {
+    font-size: 1.5rem;
+    color: var(--color-dark-gray-3);
+}
+
